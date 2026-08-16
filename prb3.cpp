@@ -6,7 +6,7 @@ vector<vector<string>> groupAnagrams(vector<string>& words) {
  
     for (int i = 0; i < words.size(); i++) {
         string key = words[i];
-        sort(key.begin(), key.end());   // sorted letters = group key
+        sort(key.begin(), key.end());  
         groups[key].push_back(words[i]);
     }
  
