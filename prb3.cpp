@@ -7,7 +7,7 @@ vector<vector<string>> groupAnagrams(vector<string>& words) {
     for (int i = 0; i < words.size(); i++) {
         string key = words[i];
         sort(key.begin(), key.end());  
-        groups[key].push_back(words[i]); //push line
+        groups[key].push_back(words[i]); 
     }
  
     vector<vector<string>> result;
@@ -15,7 +15,7 @@ vector<vector<string>> groupAnagrams(vector<string>& words) {
         result.push_back(pair.second);
     }
  
-    return result;
+    return result; //result
 }
  
 int main() {
@@ -23,7 +23,7 @@ int main() {
     vector<vector<string>> result = groupAnagrams(words);
  
     for (auto& group : result) {
-        for (auto& w : group) cout << w << " "; //count line
+        for (auto& w : group) cout << w << " "; 
         cout << endl;
     }
     return 0;
