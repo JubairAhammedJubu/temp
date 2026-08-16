@@ -18,9 +18,7 @@ vector<vector<string>> groupAnagrams(vector<string>& words) {
     return result; //result
 }
  
-int main() {
-    vector<string> words = {"eat", "tea", "tan", "ate", "nat", "bat"}; //demo words
-    vector<vector<string>> result = groupAnagrams(words);
- 
-    
-}
+
+
+
+//something
