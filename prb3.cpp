@@ -22,9 +22,5 @@ int main() {
     vector<string> words = {"eat", "tea", "tan", "ate", "nat", "bat"}; //demo words
     vector<vector<string>> result = groupAnagrams(words);
  
-    for (auto& group : result) {
-        for (auto& w : group) cout << w << " "; 
-        cout << endl;
-    }
-    return 0;
+    
 }
